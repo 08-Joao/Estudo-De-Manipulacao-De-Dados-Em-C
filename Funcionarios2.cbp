@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="funcionarios.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="funcionarios.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
