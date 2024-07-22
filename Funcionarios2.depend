@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1721343793 source:c:\users\joao0\desktop\projetos aeds ii\funcionarios2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionarios.h"
+	<time.h>
+
+1721342239 c:\users\joao0\desktop\projetos aeds ii\funcionarios2\funcionarios.h
+	<stdlib.h>
+	<stdio.h>
+
+1721343035 source:c:\users\joao0\desktop\projetos aeds ii\funcionarios2\funcionarios.c
+	"funcionarios.h"
+	<string.h>
+	<stdlib.h>
+	<time.h>
+
