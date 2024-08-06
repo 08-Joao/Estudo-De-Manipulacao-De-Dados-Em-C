@@ -15,3 +15,19 @@
 	<stdlib.h>
 	<time.h>
 
+1722920618 source:/home/joao/Desktop/Estudo-De-Manipulacao-De-Dados-Em-C/funcionarios.c
+	"funcionarios.h"
+	<string.h>
+	<stdlib.h>
+	<stdarg.h>
+
+1722904138 /home/joao/Desktop/Estudo-De-Manipulacao-De-Dados-Em-C/funcionarios.h
+	<stdlib.h>
+	<stdio.h>
+
+1722920645 source:/home/joao/Desktop/Estudo-De-Manipulacao-De-Dados-Em-C/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"funcionarios.h"
+

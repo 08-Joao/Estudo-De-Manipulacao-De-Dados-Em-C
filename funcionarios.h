@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+
 typedef struct Funcionario {
     int cod;
     char nome[50];
@@ -12,27 +13,51 @@ typedef struct Funcionario {
     double salario;
 } TFunc;
 
+
+
+// Cria funcionario.
 TFunc *funcionario(int cod, char *nome, char *cpf, char *data_nascimento, double salario);
 
+
+// Salva funcionario no arquivo out, na posicao atual do cursor
 void salva(TFunc *func, FILE *out);
 
+
+// Le um funcionario do arquivo na posicao atual do cursor
+// Retorna um ponteiro para funcionario lido do arquivo
 TFunc *le(FILE *in);
 
+
+// Imprime funcionario
 void imprime(TFunc *func);
 
+
+// Retorna tamanho do funcionario em bytes
 int tamanho_registro();
 
+
+// retorna a quantidade de registros no arquivo
 int qtdRegistros(FILE *arq);
 
+
+// Cria a base de dados ordenada pelo c�digo do funcion�rio
 void criarBaseOrdenada(FILE *out, int tam);
 
+
+//embaralha base de dados
+void embaralha(int *vet,int MAX,int trocas);
+
+// Cria a base de dados desordenada pelo c�digo do funcion�rio
 void criarBaseDesordenada(FILE *out, int tam, int qtdTrocas);
 
 
+// Imprime a base de dados
 void imprimirBase(FILE *out);
 
-TFunc *busca(FILE *in, int tam, int cod);
+TFunc *busca(FILE *in, int tam, int cod );
 
 TFunc *buscaBinaria(FILE *in, int tam, int cod);
+
+void insertionSort(FILE *arq, int tam, FILE* log);
 
 #endif // FUNCIONARIOS_H_INCLUDED

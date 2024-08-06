@@ -1,0 +1,3 @@
+
+O numero de comparacoes realizadas durante a ordenacao Insertion Sort foi de 362997
+O numero de comparacoes realizadas durante a ordenacao Insertion Sort foi de 327991
